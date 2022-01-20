@@ -1,0 +1,1608 @@
+<!DOCTYPE html>
+<html lang="ar" class="">
+
+<!-- Mirrored from findeqi.com/ar/hotel?orderby=price_low_high by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Jan 2022 12:06:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="zUGtB8dLEU5UOIIViWwxZIo3hK6uUSfyakpUQ53U">
+                                        <link rel="icon" type="image/png" href="../uploads/0000/1/2021/09/14/findeqi-fav-icon.png" />
+            
+    <title>Search for hotel - فندقي</title>
+    <meta name="description" content=""/>
+    
+    <meta property="og:url" content="../hotel.html"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Search for hotel"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content="../uploads/demo/hotel/banner-search-hotel.jpg"/>
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Search for hotel">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="../uploads/demo/hotel/banner-search-hotel.jpg">
+    <link rel="canonical" href="../hotel.html"/>
+    <link href="../libs/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../libs/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../libs/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="../libs/icofont/icofont.min.css" rel="stylesheet">
+    <link href="../libs/select2/css/select2.min.css" rel="stylesheet">
+
+    <link href="../libs/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <link href="../libs/slick/slick.css" rel="stylesheet">
+    <link href="../libs/custombox/custombox.min.css" rel="stylesheet">
+
+    <link href="../dist/frontend/css/notification.css" rel="newest stylesheet">
+    <link href="../dist/frontend/css/appfb9d.css?_ver=1.2.0" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="../libs/daterange/daterangepicker.css" >
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="http://fonts.gstatic.com/">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&amp;display=swap" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:100,200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../libs/bootstrap-select/dist/css/bootstrap-select.min.css">
+    <link href="../libs/ion_rangeslider/css/ion.rangeSlider.css" rel="stylesheet">
+
+
+    
+    
+    <script>
+        var myTravel = {
+            url:'https://findeqi.com/ar',
+            url_root:'https://findeqi.com',
+            booking_decimals:0,
+            thousand_separator:'.',
+            decimal_separator:',',
+            currency_position:'right_space',
+            currency_symbol:'$',
+			currency_rate:'1500',
+            date_format:'DD/MM/YYYY',
+            map_provider:'gmap',
+            map_gmap_key:'AIzaSyC_pgdWuDBxKh-dCIgiFAmXyEjB8AVhsWI',
+            routes:{
+                login:'https://findeqi.com/ar/login',
+                register:'https://findeqi.com/ar/register',
+                checkout:'https://findeqi.com/ar/booking/doCheckout'
+            },
+            module:{
+                hotel:'https://findeqi.com/ar/hotel',
+                car:'https://findeqi.com/ar/car',
+                tour:'https://findeqi.com/ar/tour',
+                space:'https://findeqi.com/ar/space',
+                flight:"https://findeqi.com/ar/flight"
+            },
+            currentUser: 0,
+            isAdmin : 0,
+            rtl: 0,
+            markAsRead:'https://findeqi.com/ar/notify/markAsRead',
+            markAllAsRead:'https://findeqi.com/ar/notify/markAllAsRead',
+            loadNotify : 'https://findeqi.com/ar/notify/notifications',
+            pusher_api_key : '',
+            pusher_cluster : '',
+        };
+        var i18n = {
+            warning:"Warning",
+            success:"Success",
+        };
+        var daterangepickerLocale = {
+            "applyLabel": "تطبيق",
+            "cancelLabel": "الغاء",
+            "fromLabel": "يبدأ من",
+            "toLabel": "To",
+            "customRangeLabel": "مخصص",
+            "weekLabel": "W",
+            "first_day_of_week": 0,
+            "daysOfWeek": [
+                "احد",
+                "اثنين",
+                "ثلاثاء",
+                "اربعاء",
+                "خميس",
+                "جمعة",
+                "سبت"
+            ],
+            "monthNames": [
+                "كانون الثاني",
+                "شباط",
+                "آذار",
+                "نيسان",
+                "أيار",
+                "حزيران",
+                "تموز",
+                "آب",
+                "أيلول",
+                "تشرين الأول",
+                "تشرين الثاني",
+                "كانون الأول"
+            ],
+        };
+    </script>
+    <!-- Styles -->
+        <link href="../dist/frontend/module/hotel/css/hotelfb9d.css?_ver=1.2.0" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../libs/ion_rangeslider/css/ion.rangeSlider.min.css"/>
+    
+    <link href="custom-css.css" rel="stylesheet">
+    <link href="../libs/carousel-2/owl.carousel.css" rel="stylesheet">
+        <!--
+
+<marquee direction="right" style="border-top-style: solid;border-top-width: 150px;">
+Coming soon. - قريبا
+</marquee>
+
+-->
+    
+
+    
+</head>
+<body class="frontend-page    ">
+    
+    
+    
+    <div class="bravo_wrap">
+                    <header id="header"
+        class="            header-white u-header u-header--dark-nav-links-xl u-header--show-hide-xl u-header--static-xl border-bottom
+        "
+        data-header-fix-moment="500" data-header-fix-effect="slide">
+    <div class="u-header__section u-header__shadow-on-show-hide">
+        <div class="bravo_topbar u-header__hide-content u-header__topbar u-header__topbar-lg border-bottom   border-color-8 ">
+   <div class="container">
+       <div class="d-flex align-items-center">
+           <div class="list-inline u-header__topbar-nav-divider mb-0 topbar_left_text font-size-14   list-inline-dark ">
+               <div class="socials">
+    <a href="https://www.facebook.com/findeqi/"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.instagram.com/findeqi/"><i class="fa fa-instagram"></i></a>
+</div>
+<span class="line"></span>
+<a href="mailto:info@findeqi.comm">info@findeqi.com</a>
+           </div>
+           <div class="ml-auto d-flex align-items-center">
+               <div class="d-flex align-items-center text-white px-3">
+                   <i class="flaticon-phone-call mr-2 ml-1 font-size-18"></i>
+                   <span class="d-inline-block font-size-14 mr-1">(+964) 771 339 3991</span>
+               </div>
+               <div class="position-relative px-3 u-header__login-form dropdown-connector-xl u-header__topbar-divider currency-select">
+        <div class="d-flex align-items-center text-white py-3 dropdown">
+            <span class="d-inline-block font-size-14 mr-1 dropdown-nav-link " data-toggle="dropdown">
+                                                            USD
+                                                                                    </span>
+            <ul class="dropdown-menu text-left width-auto min-width-100">
+                                                                                                <li>
+                            <a href="hotel783b.html?orderby=price_low_high&amp;set_currency=iqd">
+                                IQD
+                            </a>
+                        </li>
+                                                </ul>
+        </div>
+    </div>
+               <div class="position-relative px-3 u-header__login-form dropdown-connector-xl u-header__topbar-divider currency-select">
+        <div class="d-flex align-items-center text-white py-3 dropdown">
+            <span class="d-inline-block font-size-14 mr-1 dropdown-nav-link " data-toggle="dropdown">
+                                                                                                                            <span class="flag-icon flag-icon-iq"></span>
+                                                    Arabic
+                                                </span>
+            <ul class="dropdown-menu dropdown-menu-user text-left width-auto">
+                                                            <li>
+                            <a href="../hotel783b.html?orderby=price_low_high&amp;set_lang=en" class="d-flex">
+                                                                    <span class="flag-icon flag-icon-gb mr-2"></span>
+                                                                English
+                            </a>
+                        </li>
+                                                                                    </ul>
+        </div>
+    </div>
+               <div class="dropdown-notifications position-relative px-3 u-header__login-form dropdown-connector-xl u-header__topbar-divider">
+                <span class="d-inline-block font-size-14 mr-1 dropdown-nav-link" data-toggle="dropdown">
+                    <i class="flaticon-bell mr-2 ml-1 font-size-18"></i>
+                    <span class="d-inline-block badge badge-danger notification-icon">0</span>
+                </span>
+                   <ul class="dropdown-menu text-left dropdown overflow-auto notify-items dropdown-large">
+                       <div class="dropdown-toolbar">
+                           <h3 class="dropdown-toolbar-title">الاشعارات (<span class="notif-count">0</span>)</h3>
+                           <div class="dropdown-toolbar-actions">
+                               <a href="#" class="markAllAsRead">تحديد الكل كمقروء</a>
+                           </div>
+                       </div>
+                       <ul class="dropdown-list-items p-0">
+                                                  </ul>
+                       <div class="dropdown-footer text-right">
+                           <a href="loginb9b8.html">عرض المزيد</a>
+                       </div>
+                   </ul>
+               </div>
+               <div class="position-relative px-3 u-header__login-form dropdown-connector-xl u-header__topbar-divider">
+                                          <a href="javascript:;" class="d-flex align-items-center text-white py-3"
+                          data-toggle="modal" data-target="#login">
+                           <i class="flaticon-user mr-2 ml-1 font-size-18"></i>
+                           <span class="d-inline-block font-size-14 mr-1">التسجيل او تسجيل الدخول</span>
+                       </a>
+                                  </div>
+
+           </div>
+       </div>
+   </div>
+</div>
+        <div class="bravo_header">
+            <div class="container">
+                <div class="content">
+                    <div class="header-left">
+                        <a href="../ar.html" class="bravo-logo navbar-brand u-header__navbar-brand-default u-header__navbar-brand-center u-header__navbar-brand-text-white mr-0 mr-xl-5">
+                                                        <span class="u-header__navbar-brand-text">فندقي</span>
+                        </a>
+                        <a class="bravo-logo navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-on-scroll" href="../ar.html">
+                                                        <span class="u-header__navbar-brand-text">فندقي</span>
+                        </a>
+                        <div class="bravo-menu">
+                            <ul class="main-menu menu-generated"><li class=" depth-0"><a  target="" href="page/home-page.html" >الصفحة الرئيسية</a></li><li class=" depth-0"><a  target="" href="../hotel.html" >الفنادق</a></li><li class=" depth-0"><a  target="" href="../contact.html" >تواصل معنا</a></li><li class=" depth-0"><a  target="" href="page/list-your-property.html" >اعرض عقارك على موقعنا</a></li><li class=" depth-0"><a  target="" href="page/about.html" >معلومات عنا</a></li></ul>                        </div>
+                    </div>
+                    <div class="header-right">
+                                                <button class="bravo-more-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="bravo-menu-mobile" style="display:none;">
+                <div class="user-profile">
+                    <div class="b-close"><i class="icofont-scroll-left"></i></div>
+                    <div class="avatar"></div>
+                    <ul>
+                                                    <li>
+                                <a href="#login" data-toggle="modal" data-target="#login" class="login">تسجيل الدخول</a>
+                            </li>
+                            <li>
+                                <a href="#register" data-toggle="modal" data-target="#register" class="signup">سجل الان</a>
+                            </li>
+                                            </ul>
+                    <ul class="multi-lang">
+                        <li class="dropdown">
+                                    <a href="#" data-toggle="dropdown" class="is_login">
+                    USD
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                                                <ul class="dropdown-menu text-left width-auto">
+                                                                            <li>
+                        <a href="hotel783b.html?orderby=price_low_high&amp;set_currency=iqd" class="is_login">
+                            IQD
+                        </a>
+                    </li>
+                                    </ul>
+    </li>
+                    </ul>
+                    <ul class="multi-lang">
+                        <li class="dropdown">
+                                                        <a href="#" data-toggle="dropdown" class="is_login">
+                                            <span class="flag-icon flag-icon-iq"></span>
+                                        Arabic
+                    <i class="fa fa-angle-down"></i>
+                </a>
+                            <ul class="dropdown-menu text-left">
+                                                <li>
+                        <a href="../hotel783b.html?orderby=price_low_high&amp;set_lang=en" class="is_login">
+                                                            <span class="flag-icon flag-icon-gb"></span>
+                                                        English
+                        </a>
+                    </li>
+                                                                </ul>
+    </li>
+                    </ul>
+                </div>
+                <div class="g-menu">
+                    <ul class="main-menu menu-generated"><li class=" depth-0"><a  target="" href="page/home-page.html" >الصفحة الرئيسية</a></li><li class=" depth-0"><a  target="" href="../hotel.html" >الفنادق</a></li><li class=" depth-0"><a  target="" href="../contact.html" >تواصل معنا</a></li><li class=" depth-0"><a  target="" href="page/list-your-property.html" >اعرض عقارك على موقعنا</a></li><li class=" depth-0"><a  target="" href="page/about.html" >معلومات عنا</a></li></ul>                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+        
+            <div class="bravo_search_hotel">
+        <div class="container">
+            <div class="row">
+    <div class="col-lg-4 col-xl-3 col-md-12">
+        <div class="bravo_filter navbar-expand-lg navbar-expand-lg-collapse-block">
+    <button class="btn d-lg-none mb-5 p-0 collapsed" type="button" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-caret-square-o-down text-primary font-size-20 card-btn-arrow ml-0 font-weight-normal"></i>
+        <span class="text-primary ml-2">تصفية البحث</span>
+    </button>
+    <div id="sidebar" class="navbar-expand-lg navbar-expand-lg-collapse-block collapse">
+        
+        <div class="item pb-4 mb-2">
+            <div class="sidebar border border-color-1 rounded-xs">
+    <div class="p-4 mb-1">
+        <form action="https://findeqi.com/ar/hotel" class="bravo_form" method="get">
+                                                                                                        <div class="item">
+	<span class="d-block text-gray-1  font-weight-normal mb-0 text-left">
+		معلومات المكان
+	</span>
+	<div class="mb-4">
+		<div class="input-group border-bottom border-width-2 border-color-1 py-2">
+			<i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
+						<div class="smart-search border-0 p-0 form-control  height-40">
+				<input type="text" class="smart-search-location parent_text  font-weight-bold font-size-16 shadow-none hero-form font-weight-bold border-0 p-0" readonly placeholder="اختر وجهتك" value="" data-onLoad="Loading..."
+					   data-default="[{&quot;id&quot;:15,&quot;title&quot;:&quot; \u0628\u063a\u062f\u0627\u062f&quot;}]">
+				<input type="hidden" class="child_id" name="location_id" value="">
+			</div>
+		</div>
+	</div>
+</div>                                                                                                        <div class="item">
+    <span class="d-block text-gray-1 text-left font-weight-normal">
+        تسجيل الوصول - المغادرة
+    </span>
+    <div class="border-bottom border-width-2 border-color-1 mb-4 form-content">
+        <div class="u-datepicker input-group py-2 flex-nowrap form-date-search">
+            <div class="input-group-prepend">
+                <span class="d-flex align-items-center mr-2 font-size-21">
+                    <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                </span>
+            </div>
+            <div class="date-wrapper height-40 font-size-16 ml-1 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0">
+                <div class="render check-in-render">20/01/2022</div>
+                <span> - </span>
+                <div class="render check-out-render">21/01/2022</div>
+            </div>
+            <input type="hidden" class="check-in-input" value="20/01/2022" name="start">
+            <input type="hidden" class="check-out-input" value="21/01/2022" name="end">
+            <input type="text" class="check-in-out" name="date" value="2022-01-20 - 2022-01-21">
+        </div>
+    </div>
+</div>                                                                                                        <div class="item">
+    <div class="col dropdown-custom px-0 mb-4 form-select-guests">
+        <span class="d-block text-gray-1 text-left font-weight-normal">النزلاء</span>
+        <div class="flex-horizontal-center border-bottom border-width-2 border-color-1 py-2 d-flex  dropdown-toggle" data-toggle="dropdown">
+            <i class="flaticon-add-group d-flex align-items-center mr-3 font-size-20 text-primary font-weight-semi-bold"></i>
+                        <div class="text-black font-size-16 font-weight-semi-bold mr-auto">
+               <div class="render">
+                    <span class="adults" ><span class="one ">بالغ 1 /</span> <span class=" d-none  multi" data-html="بالغين :count">بالغين 1</span></span>
+                    -
+                    <span class="children" >
+                        <span class="one " data-html="طفل :count">طفل 0</span>
+                        <span class="multi  d-none " data-html="اطفال :count">اطفال 0</span>
+                    </span>
+               </div>
+            </div>
+        </div>
+        <div class="dropdown-menu select-guests-dropdown" >
+            <div class="dropdown-item-row">
+                <div class="label">البالغين</div>
+                <div class="val">
+                    <span class="btn-minus" data-input="adults"><i class="icon ion-md-remove"></i></span>
+                    <span class="count-display"><input type="number" name="adults" value="1" min="1"></span>
+                    <span class="btn-add" data-input="adults"><i class="icon ion-ios-add"></i></span>
+                </div>
+            </div>
+            <div class="dropdown-item-row">
+                <div class="label">اطفال</div>
+                <div class="val">
+                    <span class="btn-minus" data-input="children"><i class="icon ion-md-remove"></i></span>
+                    <span class="count-display"> <input type="number" name="children" value="0" min="0"> </span>
+                    <span class="btn-add" data-input="children"><i class="icon ion-ios-add"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>                                                                <div class="text-center">
+                <button type="submit" class="btn btn-primary height-60 w-100 font-weight-bold mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2 font-size-17"></i>Search</button>
+            </div>
+        </form>
+    </div>
+</div>        </div>
+        
+        <div class="item pb-4 mb-2">
+            <a href="hotel76a0.html?_layout=map" class="d-block border border-color-1 rounded-xs">
+                <img src="../images/map.jpg" alt="" width="100%">
+            </a>
+        </div>
+        <form action="https://findeqi.com/ar/hotel" class="bravo_form_filter">
+                                    
+            <div class="sidenav border border-color-8 rounded-xs">
+                <div id="bravo-filter-price" class="accordion shadow-none bravo-filter-price border-bottom">
+                                        <div class="border-0">
+                        <div class="card-collapse">
+                            <h3 class="mb-0">
+                                <button type="button" class="btn btn-link btn-block card-btn py-2  text-lh-3 collapsed" data-toggle="collapse" data-target="#context-filter-price" aria-expanded="false" aria-controls="context-filter-price">
+                                    <span class="row align-items-center">
+                                        <span class="col-9">
+                                            <span class="d-block font-size-lg-15 font-size-17 font-weight-bold text-dark">نطاق الاسعار ($)</span>
+                                        </span>
+                                        <span class="col-3 text-right">
+                                            <span class="card-btn-arrow">
+                                                <span class="fa fa-chevron-down small"></span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </button>
+                            </h3>
+                        </div>
+                        <div id="context-filter-price" class="collapse show" data-parent="#bravo-filter-price">
+                            <div class="card-body pt-0 ">
+                                <div class="pb-3 mb-1 d-flex text-lh-1">
+                                    <span>$</span>
+                                    <span id="rangeSliderMinResult"></span>
+                                    <span class="mx-0dot5"> — </span>
+                                    <span>$</span>
+                                    <span id="rangeSliderMaxResult"></span>
+                                </div>
+                                <input class="filter-price" type="text" name="price_range"
+                                       data-extra-classes="u-range-slider height-35"
+                                       data-type="double"
+                                       data-grid="false"
+                                       data-hide-from-to="true"
+                                       data-min="40"
+                                       data-max="100"
+                                       data-from="40"
+                                       data-to="100"
+                                       data-prefix="$"
+                                       data-result-min="#rangeSliderMinResult"
+                                       data-result-max="#rangeSliderMaxResult">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion rounded-0 shadow-none border-bottom">
+                    <div class="border-0">
+                        <div class="card-collapse">
+                            <h3 class="mb-0">
+                                <button type="button" class="btn btn-link btn-block card-btn py-2  text-lh-3 collapsed" data-toggle="collapse" data-target="#rate">
+                                    <span class="row align-items-center">
+                                        <span class="col-9">
+                                            <span class="d-block font-size-lg-15 font-size-17 font-weight-bold text-dark text-lh-1dot4">عدد نجوم الفندق</span>
+                                        </span>
+                                        <span class="col-3 text-right">
+                                            <span class="card-btn-arrow">
+                                                <span class="fa fa-chevron-down small"></span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </button>
+                            </h3>
+                        </div>
+                        <div id="rate" class="collapse show">
+                            <div class="card-body pt-0 mt-1 ">
+                                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                        <div class="custom-control custom-checkbox">
+                                            <input class="custom-control-input" id="star_rate5" name="star_rate[]" type="checkbox" value="5" >
+                                            <label class="custom-control-label text-lh-inherit text-color-1" for="star_rate5">
+                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                    <div class="green-lighter ml-1 letter-spacing-2">
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                            </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                        <div class="custom-control custom-checkbox">
+                                            <input class="custom-control-input" id="star_rate4" name="star_rate[]" type="checkbox" value="4" >
+                                            <label class="custom-control-label text-lh-inherit text-color-1" for="star_rate4">
+                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                    <div class="green-lighter ml-1 letter-spacing-2">
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                            </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                        <div class="custom-control custom-checkbox">
+                                            <input class="custom-control-input" id="star_rate3" name="star_rate[]" type="checkbox" value="3" >
+                                            <label class="custom-control-label text-lh-inherit text-color-1" for="star_rate3">
+                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                    <div class="green-lighter ml-1 letter-spacing-2">
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                            </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                        <div class="custom-control custom-checkbox">
+                                            <input class="custom-control-input" id="star_rate2" name="star_rate[]" type="checkbox" value="2" >
+                                            <label class="custom-control-label text-lh-inherit text-color-1" for="star_rate2">
+                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                    <div class="green-lighter ml-1 letter-spacing-2">
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                            </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion rounded-0 shadow-none border-bottom">
+                    <div class="border-0">
+                        <div class="card-collapse">
+                            <h3 class="mb-0">
+                                <button type="button" class="btn btn-link btn-block card-btn py-2  text-lh-3 collapsed" data-toggle="collapse" data-target="#review_score">
+                                    <span class="row align-items-center">
+                                        <span class="col-9">
+                                            <span class="d-block font-size-lg-15 font-size-17 font-weight-bold text-dark text-lh-1dot4">مستوى التقييم</span>
+                                        </span>
+                                        <span class="col-3 text-right">
+                                            <span class="card-btn-arrow">
+                                                <span class="fa fa-chevron-down small"></span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                </button>
+                            </h3>
+                        </div>
+                        <div id="review_score" class="collapse show">
+                            <div class="card-body pt-0 mt-1 ">
+                                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                        <div class="custom-control custom-checkbox">
+                                            <input class="custom-control-input" id="review_score5" name="review_score[]" type="checkbox" value="5" >
+                                            <label class="custom-control-label text-lh-inherit text-color-1" for="review_score5">
+                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                    <div class="green-lighter ml-1 letter-spacing-2">
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                            </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                        <div class="custom-control custom-checkbox">
+                                            <input class="custom-control-input" id="review_score4" name="review_score[]" type="checkbox" value="4" >
+                                            <label class="custom-control-label text-lh-inherit text-color-1" for="review_score4">
+                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                    <div class="green-lighter ml-1 letter-spacing-2">
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                            </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                        <div class="custom-control custom-checkbox">
+                                            <input class="custom-control-input" id="review_score3" name="review_score[]" type="checkbox" value="3" >
+                                            <label class="custom-control-label text-lh-inherit text-color-1" for="review_score3">
+                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                    <div class="green-lighter ml-1 letter-spacing-2">
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                            </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                        <div class="custom-control custom-checkbox">
+                                            <input class="custom-control-input" id="review_score2" name="review_score[]" type="checkbox" value="2" >
+                                            <label class="custom-control-label text-lh-inherit text-color-1" for="review_score2">
+                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                    <div class="green-lighter ml-1 letter-spacing-2">
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                                    <i class="fa fa-star"></i>
+                                                                                                            </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                                                                    
+                        <div id="attr_5" class="accordion rounded-0 shadow-none">
+                            <div class="border-0">
+                                <div class="card-collapse" id="cityCategoryHeadingOne">
+                                    <h3 class="mb-0">
+                                        <button type="button" class="btn btn-link btn-block card-btn py-2 text-lh-3 collapsed" data-toggle="collapse" data-target="#attr_more_5" aria-expanded="false" aria-controls="attr_more_5">
+                                            <span class="row align-items-center">
+                                                <span class="col-9">
+                                                    <span class="font-weight-bold font-size-17 text-dark mb-3">نوع مكان الاقامة</span>
+                                                </span>
+                                                <span class="col-3 text-right">
+                                                    <span class="card-btn-arrow">
+                                                        <span class="fa fa-chevron-down small"></span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </button>
+                                    </h3>
+                                </div>
+                                <div id="attr_more_5" class="collapse show" aria-labelledby="cityCategoryHeadingOne" data-parent="#attr_5">
+                                    <div class="card-body pt-0 mt-1  pb-4">
+                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input id="term_36" class="custom-control-input"  type="checkbox" name="terms[]" value="36">
+                                                        <label class="custom-control-label" for="term_36">شقق سكنية</label>
+                                                    </div>
+                                                    <span>1</span>
+                                                </div>
+                                                                                                                                                                                                                                <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input id="term_37" class="custom-control-input"  type="checkbox" name="terms[]" value="37">
+                                                        <label class="custom-control-label" for="term_37">فنادق</label>
+                                                    </div>
+                                                    <span>5</span>
+                                                </div>
+                                                                                                                                                                                                                                <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input id="term_41" class="custom-control-input"  type="checkbox" name="terms[]" value="41">
+                                                        <label class="custom-control-label" for="term_41">موتيلات</label>
+                                                    </div>
+                                                    <span>0</span>
+                                                </div>
+                                                                                                                                                                                                                <div class="collapse" id="more_term_42">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_42" class="custom-control-input"  type="checkbox" name="terms[]" value="42">
+                                                            <label class="custom-control-label" for="term_42">منتجعات سياحية</label>
+                                                        </div>
+                                                        <span>0</span>
+                                                    </div>
+                                                                                                                                    </div>
+                                        <a class="link link-collapse small font-size-1 mt-2" data-toggle="collapse" href="#more_term_42" role="button" aria-expanded="false" aria-controls="more_term_42">
+                                            <span class="link-collapse__default font-size-14">عرض الكل</span>
+                                            <span class="link-collapse__active font-size-14">عرض اقل</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                                                        
+                        <div id="attr_6" class="accordion rounded-0 shadow-none">
+                            <div class="border-0">
+                                <div class="card-collapse" id="cityCategoryHeadingOne">
+                                    <h3 class="mb-0">
+                                        <button type="button" class="btn btn-link btn-block card-btn py-2 text-lh-3 collapsed" data-toggle="collapse" data-target="#attr_more_6" aria-expanded="false" aria-controls="attr_more_6">
+                                            <span class="row align-items-center">
+                                                <span class="col-9">
+                                                    <span class="font-weight-bold font-size-17 text-dark mb-3">الخدمات</span>
+                                                </span>
+                                                <span class="col-3 text-right">
+                                                    <span class="card-btn-arrow">
+                                                        <span class="fa fa-chevron-down small"></span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </button>
+                                    </h3>
+                                </div>
+                                <div id="attr_more_6" class="collapse show" aria-labelledby="cityCategoryHeadingOne" data-parent="#attr_6">
+                                    <div class="card-body pt-0 mt-1  pb-4">
+                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input id="term_47" class="custom-control-input"  type="checkbox" name="terms[]" value="47">
+                                                        <label class="custom-control-label" for="term_47">تأجير السيارات</label>
+                                                    </div>
+                                                    <span>2</span>
+                                                </div>
+                                                                                                                                                                                                                                <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input id="term_49" class="custom-control-input"  type="checkbox" name="terms[]" value="49">
+                                                        <label class="custom-control-label" for="term_49">تلفزيون</label>
+                                                    </div>
+                                                    <span>6</span>
+                                                </div>
+                                                                                                                                                                                                                                <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input id="term_50" class="custom-control-input"  type="checkbox" name="terms[]" value="50">
+                                                        <label class="custom-control-label" for="term_50">الغسيل والتنظيف الجاف</label>
+                                                    </div>
+                                                    <span>6</span>
+                                                </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="collapse" id="more_term_106">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_51" class="custom-control-input"  type="checkbox" name="terms[]" value="51">
+                                                            <label class="custom-control-label" for="term_51">انترنت مجاني</label>
+                                                        </div>
+                                                        <span>6</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_52" class="custom-control-input"  type="checkbox" name="terms[]" value="52">
+                                                            <label class="custom-control-label" for="term_52">الشاي والقهوة</label>
+                                                        </div>
+                                                        <span>6</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_96" class="custom-control-input"  type="checkbox" name="terms[]" value="96">
+                                                            <label class="custom-control-label" for="term_96">موقف سيارات</label>
+                                                        </div>
+                                                        <span>6</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_97" class="custom-control-input"  type="checkbox" name="terms[]" value="97">
+                                                            <label class="custom-control-label" for="term_97">الحيوانات الأليفة مسموح بها</label>
+                                                        </div>
+                                                        <span>3</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_98" class="custom-control-input"  type="checkbox" name="terms[]" value="98">
+                                                            <label class="custom-control-label" for="term_98">خدمة الغرف</label>
+                                                        </div>
+                                                        <span>6</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_99" class="custom-control-input"  type="checkbox" name="terms[]" value="99">
+                                                            <label class="custom-control-label" for="term_99">مكتب استقبال يعمل على مدار 24 ساعة</label>
+                                                        </div>
+                                                        <span>6</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_100" class="custom-control-input"  type="checkbox" name="terms[]" value="100">
+                                                            <label class="custom-control-label" for="term_100">مركز اللياقة البدنية</label>
+                                                        </div>
+                                                        <span>5</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_101" class="custom-control-input"  type="checkbox" name="terms[]" value="101">
+                                                            <label class="custom-control-label" for="term_101">غرف لغير المدخنين</label>
+                                                        </div>
+                                                        <span>3</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_102" class="custom-control-input"  type="checkbox" name="terms[]" value="102">
+                                                            <label class="custom-control-label" for="term_102">خدمة نقل المطار</label>
+                                                        </div>
+                                                        <span>5</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_103" class="custom-control-input"  type="checkbox" name="terms[]" value="103">
+                                                            <label class="custom-control-label" for="term_103">مرافق لذوي الاحتياجات الخاصة</label>
+                                                        </div>
+                                                        <span>4</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_104" class="custom-control-input"  type="checkbox" name="terms[]" value="104">
+                                                            <label class="custom-control-label" for="term_104">غرف عائلية</label>
+                                                        </div>
+                                                        <span>6</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_105" class="custom-control-input"  type="checkbox" name="terms[]" value="105">
+                                                            <label class="custom-control-label" for="term_105">منتجع صحي</label>
+                                                        </div>
+                                                        <span>3</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_106" class="custom-control-input"  type="checkbox" name="terms[]" value="106">
+                                                            <label class="custom-control-label" for="term_106">حمام السباحة</label>
+                                                        </div>
+                                                        <span>2</span>
+                                                    </div>
+                                                                                                                                    </div>
+                                        <a class="link link-collapse small font-size-1 mt-2" data-toggle="collapse" href="#more_term_106" role="button" aria-expanded="false" aria-controls="more_term_106">
+                                            <span class="link-collapse__default font-size-14">عرض الكل</span>
+                                            <span class="link-collapse__active font-size-14">عرض اقل</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                                                        
+                        <div id="attr_7" class="accordion rounded-0 shadow-none">
+                            <div class="border-0">
+                                <div class="card-collapse" id="cityCategoryHeadingOne">
+                                    <h3 class="mb-0">
+                                        <button type="button" class="btn btn-link btn-block card-btn py-2 text-lh-3 collapsed" data-toggle="collapse" data-target="#attr_more_7" aria-expanded="false" aria-controls="attr_more_7">
+                                            <span class="row align-items-center">
+                                                <span class="col-9">
+                                                    <span class="font-weight-bold font-size-17 text-dark mb-3">مرافق الغرفة</span>
+                                                </span>
+                                                <span class="col-3 text-right">
+                                                    <span class="card-btn-arrow">
+                                                        <span class="fa fa-chevron-down small"></span>
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </button>
+                                    </h3>
+                                </div>
+                                <div id="attr_more_7" class="collapse show" aria-labelledby="cityCategoryHeadingOne" data-parent="#attr_7">
+                                    <div class="card-body pt-0 mt-1  pb-4">
+                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input id="term_107" class="custom-control-input"  type="checkbox" name="terms[]" value="107">
+                                                        <label class="custom-control-label" for="term_107">مطبخ / مطبخ صغير</label>
+                                                    </div>
+                                                    <span>3</span>
+                                                </div>
+                                                                                                                                                                                                                                <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input id="term_108" class="custom-control-input"  type="checkbox" name="terms[]" value="108">
+                                                        <label class="custom-control-label" for="term_108">حمام خاص</label>
+                                                    </div>
+                                                    <span>6</span>
+                                                </div>
+                                                                                                                                                                                                                                <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                    <div class="custom-control custom-checkbox">
+                                                        <input id="term_109" class="custom-control-input"  type="checkbox" name="terms[]" value="109">
+                                                        <label class="custom-control-label" for="term_109">تكييف الهواء</label>
+                                                    </div>
+                                                    <span>6</span>
+                                                </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <div class="collapse" id="more_term_117">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_112" class="custom-control-input"  type="checkbox" name="terms[]" value="112">
+                                                            <label class="custom-control-label" for="term_112">شرفة</label>
+                                                        </div>
+                                                        <span>3</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_113" class="custom-control-input"  type="checkbox" name="terms[]" value="113">
+                                                            <label class="custom-control-label" for="term_113">تلفاز بشاشة مسطحة</label>
+                                                        </div>
+                                                        <span>6</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_114" class="custom-control-input"  type="checkbox" name="terms[]" value="114">
+                                                            <label class="custom-control-label" for="term_114">ماكينة صنع القهوة / الشاي</label>
+                                                        </div>
+                                                        <span>4</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_115" class="custom-control-input"  type="checkbox" name="terms[]" value="115">
+                                                            <label class="custom-control-label" for="term_115">غلاية كهربائية</label>
+                                                        </div>
+                                                        <span>4</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_116" class="custom-control-input"  type="checkbox" name="terms[]" value="116">
+                                                            <label class="custom-control-label" for="term_116">مطبخ مجهز</label>
+                                                        </div>
+                                                        <span>2</span>
+                                                    </div>
+                                                                                                                                                                                                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input id="term_117" class="custom-control-input"  type="checkbox" name="terms[]" value="117">
+                                                            <label class="custom-control-label" for="term_117">غرفة معيشه</label>
+                                                        </div>
+                                                        <span>3</span>
+                                                    </div>
+                                                                                                                                    </div>
+                                        <a class="link link-collapse small font-size-1 mt-2" data-toggle="collapse" href="#more_term_117" role="button" aria-expanded="false" aria-controls="more_term_117">
+                                            <span class="link-collapse__default font-size-14">عرض الكل</span>
+                                            <span class="link-collapse__active font-size-14">عرض اقل</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+    </div>
+    <div class="col-lg-8 col-xl-9 col-md-12">
+        <div class="bravo-list-item">
+            <div class="d-flex justify-content-between align-items-center mb-4 topbar-search">
+                <h3 class="font-size-21 font-weight-bold mb-0 text-lh-1">
+                                            4 فنادق تم العثور عليها
+                                    </h3>
+                <div class="control">
+                    <div class="item">
+    <a href="hotel76a0.html?_layout=map">عرض على الخريطة</a>
+</div>
+<div class="item">
+        <div class="item-title">
+        عرض حسب:
+    </div>
+    <div class="dropdown">
+        <span class=" dropdown-toggle"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            السعر (من الاقل للاعلى)
+                        </span>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="hotel0cbb.html?orderby=">موصى به</a>
+                        <a class="dropdown-item" href="hotel783b.html?orderby=price_low_high">السعر (من الاقل للاعلى)</a>
+                        <a class="dropdown-item" href="hotel6f4c.html?orderby=price_high_low">السعر (من الاعلى للاقل)</a>
+                        <a class="dropdown-item" href="hotel584f.html?orderby=rate_high_low">التقييم (من الاعلى للاقل)</a>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+            <div class="list-item">
+                                                                        <li class="card mb-5 overflow-hidden">
+    <div class="product-item__outer w-100">
+        <div class="row">
+            <div class="col-md-5 col-xl-4">
+                <div class="product-item__header">
+                    <div class="position-relative">
+                        <a href="hotel/sindbad-palace-hotel.html" class="d-block">
+                            <img class="min-height-230 bg-img-hero card-img-top" src="../uploads/0000/26/2021/11/25/sindbad-palace-hotel-front-2-600.jpg" alt="فندق قصر السندباد">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 col-xl-5 col-wd-4gdot5 flex-horizontal-center">
+                <div class="w-100 position-relative m-4 m-md-0">
+                    <div class="mb-1 pb-1">
+                                                                            <span class="green-lighter mr-2">
+                                                                    <small class="fa fa-star font-size-12"></small>
+                                                                    <small class="fa fa-star font-size-12"></small>
+                                                                    <small class="fa fa-star font-size-12"></small>
+                                                            </span>
+                                            </div>
+                    <div class="position-absolute top-0 right-0 pr-md-3 d-none d-md-block">
+                        <button type="button" class="btn btn-sm btn-icon rounded-circle"  data-toggle="tooltip" data-placement="top" title="" data-original-title="حفظ لوقت لاحق">
+                            <span class="service-wishlist " data-id="36" data-type="hotel">
+                                <span class="flaticon-heart-1 font-size-20"></span>
+                            </span>
+                        </button>
+                    </div>
+                    <a  target="_blank"  href="hotel/sindbad-palace-hotel.html">
+                        <span class="font-weight-medium font-size-17 text-dark d-flex mb-1">فندق قصر السندباد </span>
+                    </a>
+                    <div class="card-body p-0">
+                        <div class="d-flex flex-wrap flex-xl-nowrap align-items-center font-size-14 text-gray-1">
+                                                                                            <i class="icon flaticon-placeholder mr-2 font-size-20"></i>بغداد
+                                                                    <small class="px-1 font-size-15"> - </small>
+                                    <a target="_blank" href="https://www.google.com/maps/place/33.30066030178933,44.43733453884233/@33.30066030178933,44.43733453884233,15z">
+                                        <span class="text-primary font-size-14">عرض على الخريطة</span>
+                                    </a>
+                                                                                    </div>
+                                                                                <span class="attr-title mb-1 d-block"><i class="icofont-medal"></i> الخدمات: </span>
+                            <ul class="list-unstyled mb-2 d-flex flex-lg-wrap flex-xl-wrap">
+                                                                                                                                                <li class="item flat-tv term-49 border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-2 mb-2 mb-md-0 mb-lg-2 mb-xl-2">
+                                            <span class="font-weight-normal font-size-14">تلفزيون</span>
+                                        </li>
+                                                                                                                                                                                    <li class="item laundry-and-dry-cleaning term-50 border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-2 mb-2 mb-md-0 mb-lg-2 mb-xl-2">
+                                            <span class="font-weight-normal font-size-14">الغسيل والتنظيف الجاف</span>
+                                        </li>
+                                                                                                                                                                                    <li class="item internet-wifi term-51 border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-2 mb-2 mb-md-0 mb-lg-2 mb-xl-2">
+                                            <span class="font-weight-normal font-size-14">انترنت مجاني</span>
+                                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </ul>
+                                                                            <ul class="list-unstyled d-flex pb-2 flex-wrap">
+                                                                    <li class="border border-green bg-green rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mr-2">
+                                        <span class="font-weight-normal font-size-14 text-white">
+                                            فطور مجاني
+                                        </span>
+                                    </li>
+                                                            </ul>
+                                            </div>
+                </div>
+            </div>
+            <div class="col col-xl-3 col-wd-3gdot5 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
+                <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0 pr-xl-3 pr-wd-5 text-xl-right justify-content-xl-end">
+                                                                <div class="mb-xl-5 mb-wd-7">
+                        <div class="mb-0">
+                            <div class="my-xl-1">
+                                <div class="d-flex align-items-center justify-content-xl-end mb-2">
+                                    <span class="badge badge-primary rounded-xs font-size-14 p-2 mr-2 mb-0">0 /5 </span>
+                                    <span class="font-size-17 font-weight-bold text-primary">لم يتم تقييمه بعد</span>
+                                </div>
+                            </div>
+                            <span class="font-size-14 text-gray-1">
+                                                            </span>
+                        </div>
+                    </div>
+                                        <div class="mb-0">
+                        <span class="mr-1 font-size-14 text-gray-1">يبدأ من</span>
+                        <span class="font-weight-bold">40 $</span>
+                        <span class="font-size-14 text-gray-1"> / ليلة</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                    <li class="card mb-5 overflow-hidden">
+    <div class="product-item__outer w-100">
+        <div class="row">
+            <div class="col-md-5 col-xl-4">
+                <div class="product-item__header">
+                    <div class="position-relative">
+                        <a href="hotel/rimal-hotel.html" class="d-block">
+                            <img class="min-height-230 bg-img-hero card-img-top" src="../uploads/0000/14/2022/01/19/rimal-hotel-front-600.jpg" alt="فندق رمال">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 col-xl-5 col-wd-4gdot5 flex-horizontal-center">
+                <div class="w-100 position-relative m-4 m-md-0">
+                    <div class="mb-1 pb-1">
+                                                                            <span class="green-lighter mr-2">
+                                                                    <small class="fa fa-star font-size-12"></small>
+                                                                    <small class="fa fa-star font-size-12"></small>
+                                                                    <small class="fa fa-star font-size-12"></small>
+                                                            </span>
+                                            </div>
+                    <div class="position-absolute top-0 right-0 pr-md-3 d-none d-md-block">
+                        <button type="button" class="btn btn-sm btn-icon rounded-circle"  data-toggle="tooltip" data-placement="top" title="" data-original-title="حفظ لوقت لاحق">
+                            <span class="service-wishlist " data-id="37" data-type="hotel">
+                                <span class="flaticon-heart-1 font-size-20"></span>
+                            </span>
+                        </button>
+                    </div>
+                    <a  target="_blank"  href="hotel/rimal-hotel.html">
+                        <span class="font-weight-medium font-size-17 text-dark d-flex mb-1">فندق رمال </span>
+                    </a>
+                    <div class="card-body p-0">
+                        <div class="d-flex flex-wrap flex-xl-nowrap align-items-center font-size-14 text-gray-1">
+                                                                                            <i class="icon flaticon-placeholder mr-2 font-size-20"></i>بغداد
+                                                                    <small class="px-1 font-size-15"> - </small>
+                                    <a target="_blank" href="https://www.google.com/maps/place/33.30170480484334,44.43524587118836/@33.30170480484334,44.43524587118836,15z">
+                                        <span class="text-primary font-size-14">عرض على الخريطة</span>
+                                    </a>
+                                                                                    </div>
+                                                                                <span class="attr-title mb-1 d-block"><i class="icofont-medal"></i> الخدمات: </span>
+                            <ul class="list-unstyled mb-2 d-flex flex-lg-wrap flex-xl-wrap">
+                                                                                                                                                <li class="item flat-tv term-49 border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-2 mb-2 mb-md-0 mb-lg-2 mb-xl-2">
+                                            <span class="font-weight-normal font-size-14">تلفزيون</span>
+                                        </li>
+                                                                                                                                                                                    <li class="item laundry-and-dry-cleaning term-50 border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-2 mb-2 mb-md-0 mb-lg-2 mb-xl-2">
+                                            <span class="font-weight-normal font-size-14">الغسيل والتنظيف الجاف</span>
+                                        </li>
+                                                                                                                                                                                    <li class="item internet-wifi term-51 border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-2 mb-2 mb-md-0 mb-lg-2 mb-xl-2">
+                                            <span class="font-weight-normal font-size-14">انترنت مجاني</span>
+                                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </ul>
+                                                                            <ul class="list-unstyled d-flex pb-2 flex-wrap">
+                                                                    <li class="border border-green bg-green rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mr-2">
+                                        <span class="font-weight-normal font-size-14 text-white">
+                                            فطور مجاني
+                                        </span>
+                                    </li>
+                                                            </ul>
+                                            </div>
+                </div>
+            </div>
+            <div class="col col-xl-3 col-wd-3gdot5 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
+                <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0 pr-xl-3 pr-wd-5 text-xl-right justify-content-xl-end">
+                                                                <div class="mb-xl-5 mb-wd-7">
+                        <div class="mb-0">
+                            <div class="my-xl-1">
+                                <div class="d-flex align-items-center justify-content-xl-end mb-2">
+                                    <span class="badge badge-primary rounded-xs font-size-14 p-2 mr-2 mb-0">0 /5 </span>
+                                    <span class="font-size-17 font-weight-bold text-primary">لم يتم تقييمه بعد</span>
+                                </div>
+                            </div>
+                            <span class="font-size-14 text-gray-1">
+                                                            </span>
+                        </div>
+                    </div>
+                                        <div class="mb-0">
+                        <span class="mr-1 font-size-14 text-gray-1">يبدأ من</span>
+                        <span class="font-weight-bold">47 $</span>
+                        <span class="font-size-14 text-gray-1"> / ليلة</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                    <li class="card mb-5 overflow-hidden">
+    <div class="product-item__outer w-100">
+        <div class="row">
+            <div class="col-md-5 col-xl-4">
+                <div class="product-item__header">
+                    <div class="position-relative">
+                        <a href="hotel/anwar-dijlah-hotel.html" class="d-block">
+                            <img class="min-height-230 bg-img-hero card-img-top" src="../uploads/0000/23/2021/11/29/anwar-dijlah-hotel-600.jpg" alt="فندق انوار دجلة">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 col-xl-5 col-wd-4gdot5 flex-horizontal-center">
+                <div class="w-100 position-relative m-4 m-md-0">
+                    <div class="mb-1 pb-1">
+                                                                            <span class="green-lighter mr-2">
+                                                                    <small class="fa fa-star font-size-12"></small>
+                                                                    <small class="fa fa-star font-size-12"></small>
+                                                                    <small class="fa fa-star font-size-12"></small>
+                                                            </span>
+                                            </div>
+                    <div class="position-absolute top-0 right-0 pr-md-3 d-none d-md-block">
+                        <button type="button" class="btn btn-sm btn-icon rounded-circle"  data-toggle="tooltip" data-placement="top" title="" data-original-title="حفظ لوقت لاحق">
+                            <span class="service-wishlist " data-id="38" data-type="hotel">
+                                <span class="flaticon-heart-1 font-size-20"></span>
+                            </span>
+                        </button>
+                    </div>
+                    <a  target="_blank"  href="hotel/anwar-dijlah-hotel.html">
+                        <span class="font-weight-medium font-size-17 text-dark d-flex mb-1">فندق انوار دجلة </span>
+                    </a>
+                    <div class="card-body p-0">
+                        <div class="d-flex flex-wrap flex-xl-nowrap align-items-center font-size-14 text-gray-1">
+                                                                                            <i class="icon flaticon-placeholder mr-2 font-size-20"></i>بغداد
+                                                                    <small class="px-1 font-size-15"> - </small>
+                                    <a target="_blank" href="https://www.google.com/maps/place/33.2909329,44.4208045/@33.2909329,44.4208045,15z">
+                                        <span class="text-primary font-size-14">عرض على الخريطة</span>
+                                    </a>
+                                                                                    </div>
+                                                                                <span class="attr-title mb-1 d-block"><i class="icofont-medal"></i> الخدمات: </span>
+                            <ul class="list-unstyled mb-2 d-flex flex-lg-wrap flex-xl-wrap">
+                                                                                                                                                <li class="item flat-tv term-49 border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-2 mb-2 mb-md-0 mb-lg-2 mb-xl-2">
+                                            <span class="font-weight-normal font-size-14">تلفزيون</span>
+                                        </li>
+                                                                                                                                                                                    <li class="item laundry-and-dry-cleaning term-50 border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-2 mb-2 mb-md-0 mb-lg-2 mb-xl-2">
+                                            <span class="font-weight-normal font-size-14">الغسيل والتنظيف الجاف</span>
+                                        </li>
+                                                                                                                                                                                    <li class="item internet-wifi term-51 border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-2 mb-2 mb-md-0 mb-lg-2 mb-xl-2">
+                                            <span class="font-weight-normal font-size-14">انترنت مجاني</span>
+                                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+                                                                            <ul class="list-unstyled d-flex pb-2 flex-wrap">
+                                                                    <li class="border border-green bg-green rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mr-2">
+                                        <span class="font-weight-normal font-size-14 text-white">
+                                            فطور مجاني
+                                        </span>
+                                    </li>
+                                                            </ul>
+                                            </div>
+                </div>
+            </div>
+            <div class="col col-xl-3 col-wd-3gdot5 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
+                <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0 pr-xl-3 pr-wd-5 text-xl-right justify-content-xl-end">
+                                                                <div class="mb-xl-5 mb-wd-7">
+                        <div class="mb-0">
+                            <div class="my-xl-1">
+                                <div class="d-flex align-items-center justify-content-xl-end mb-2">
+                                    <span class="badge badge-primary rounded-xs font-size-14 p-2 mr-2 mb-0">0 /5 </span>
+                                    <span class="font-size-17 font-weight-bold text-primary">لم يتم تقييمه بعد</span>
+                                </div>
+                            </div>
+                            <span class="font-size-14 text-gray-1">
+                                                            </span>
+                        </div>
+                    </div>
+                                        <div class="mb-0">
+                        <span class="mr-1 font-size-14 text-gray-1">يبدأ من</span>
+                        <span class="font-weight-bold">53 $</span>
+                        <span class="font-size-14 text-gray-1"> / ليلة</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                    <li class="card mb-5 overflow-hidden">
+    <div class="product-item__outer w-100">
+        <div class="row">
+            <div class="col-md-5 col-xl-4">
+                <div class="product-item__header">
+                    <div class="position-relative">
+                        <a href="hotel/lapetite-maison-hotel.html" class="d-block">
+                            <img class="min-height-230 bg-img-hero card-img-top" src="../uploads/0000/15/2021/09/27/little-house-hotel-600.jpg" alt="فندق البيت الصغير">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 col-xl-5 col-wd-4gdot5 flex-horizontal-center">
+                <div class="w-100 position-relative m-4 m-md-0">
+                    <div class="mb-1 pb-1">
+                                                                            <span class="green-lighter mr-2">
+                                                                    <small class="fa fa-star font-size-12"></small>
+                                                                    <small class="fa fa-star font-size-12"></small>
+                                                                    <small class="fa fa-star font-size-12"></small>
+                                                                    <small class="fa fa-star font-size-12"></small>
+                                                            </span>
+                                            </div>
+                    <div class="position-absolute top-0 right-0 pr-md-3 d-none d-md-block">
+                        <button type="button" class="btn btn-sm btn-icon rounded-circle"  data-toggle="tooltip" data-placement="top" title="" data-original-title="حفظ لوقت لاحق">
+                            <span class="service-wishlist " data-id="32" data-type="hotel">
+                                <span class="flaticon-heart-1 font-size-20"></span>
+                            </span>
+                        </button>
+                    </div>
+                    <a  target="_blank"  href="hotel/lapetite-maison-hotel.html">
+                        <span class="font-weight-medium font-size-17 text-dark d-flex mb-1">فندق البيت الصغير </span>
+                    </a>
+                    <div class="card-body p-0">
+                        <div class="d-flex flex-wrap flex-xl-nowrap align-items-center font-size-14 text-gray-1">
+                                                                                            <i class="icon flaticon-placeholder mr-2 font-size-20"></i>بغداد
+                                                                    <small class="px-1 font-size-15"> - </small>
+                                    <a target="_blank" href="https://www.google.com/maps/place/33.3018206644316,44.44236626931608/@33.3018206644316,44.44236626931608,12z">
+                                        <span class="text-primary font-size-14">عرض على الخريطة</span>
+                                    </a>
+                                                                                    </div>
+                                                                                <span class="attr-title mb-1 d-block"><i class="icofont-medal"></i> الخدمات: </span>
+                            <ul class="list-unstyled mb-2 d-flex flex-lg-wrap flex-xl-wrap">
+                                                                                                                                                <li class="item flat-tv term-49 border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-2 mb-2 mb-md-0 mb-lg-2 mb-xl-2">
+                                            <span class="font-weight-normal font-size-14">تلفزيون</span>
+                                        </li>
+                                                                                                                                                                                    <li class="item laundry-and-dry-cleaning term-50 border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-2 mb-2 mb-md-0 mb-lg-2 mb-xl-2">
+                                            <span class="font-weight-normal font-size-14">الغسيل والتنظيف الجاف</span>
+                                        </li>
+                                                                                                                                                                                    <li class="item internet-wifi term-51 border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-2 mb-2 mb-md-0 mb-lg-2 mb-xl-2">
+                                            <span class="font-weight-normal font-size-14">انترنت مجاني</span>
+                                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </ul>
+                                                                    </div>
+                </div>
+            </div>
+            <div class="col col-xl-3 col-wd-3gdot5 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
+                <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0 pr-xl-3 pr-wd-5 text-xl-right justify-content-xl-end">
+                                                                <div class="mb-xl-5 mb-wd-7">
+                        <div class="mb-0">
+                            <div class="my-xl-1">
+                                <div class="d-flex align-items-center justify-content-xl-end mb-2">
+                                    <span class="badge badge-primary rounded-xs font-size-14 p-2 mr-2 mb-0">0 /5 </span>
+                                    <span class="font-size-17 font-weight-bold text-primary">لم يتم تقييمه بعد</span>
+                                </div>
+                            </div>
+                            <span class="font-size-14 text-gray-1">
+                                                            </span>
+                        </div>
+                    </div>
+                                        <div class="mb-0">
+                        <span class="mr-1 font-size-14 text-gray-1">يبدأ من</span>
+                        <span class="font-weight-bold">100 $</span>
+                        <span class="font-size-14 text-gray-1"> / ليلة</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+                                                        </div>
+                            <div class="text-center text-md-left font-size-14 mb-3 text-lh-1">عرض 1 - 4 من 4 الفنادق</div>
+                        
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+
+        <div class="bravo_footer mt-4 border-top">
+		<div class="main-footer">
+			<div class="container">
+				<div class="row justify-content-xl-between">
+                                            <div class="col-12 col-lg-4 col-xl-3dot1 mb-6 mb-md-10 mb-xl-0">
+                            <div class="d-md-flex d-lg-block">
+    <div class="mb-5 mr-md-7 mr-lg-0">
+        <h4 class="h6 mb-4 font-weight-bold">بحاجة الى مساعدة؟</h4>
+        <a href="tel:9647713393991">
+            </a><div class="d-flex align-items-center"><a href="tel:9647713393991">
+                </a><div class="mr-4"><a href="tel:9647713393991">
+                    <i class="fa fa-phone font-size-50"></i>
+                </a></div><a href="tel:9647713393991">
+                </a><div><a href="tel:9647713393991">
+                    </a><div class="mb-2 h6 font-weight-normal text-gray-1"><a href="tel:9647713393991">لديك سؤال؟ تواصل معنا</a></div><a href="tel:9647713393991">
+                    <small class="d-block font-size-16 font-weight-normal text-primary">اتصل بنا: <span class="text-primary font-weight-semi-bold">(+964) 7713393991</span></small>
+                </a></div><a href="tel:9647713393991">
+            </a></div><a href="tel:9647713393991">
+        </a>
+    </div>
+    <div class="ml-md-6 ml-lg-0">
+        <div class="mb-4">
+            <h4 class="h6 font-weight-bold mb-2 font-size-17">معلومات الاتصال</h4>
+            <address class="pr-4">
+                    <span class="mb-2 h6 font-weight-normal text-gray-1">
+                        داخل مبنى المحطة، الكرادة، بغداد، العراق
+                    </span>
+            </address>
+        </div>
+        <ul class="list-inline mb-0"><li class="list-inline-item mr-2">
+                <a class="btn btn-icon btn-social btn-bg-transparent" href="https://www.facebook.com/findeqi/">
+                    <span class="fa fa-facebook-f btn-icon__inner"></span>
+                </a>
+            </li>
+            
+            
+            
+            <li class="list-inline-item mr-2">
+                <a class="btn btn-icon btn-social btn-bg-transparent" href="https://www.instagram.com/findeqi/">
+                    <span class="fa fa-instagram btn-icon__inner"></span>
+                </a>
+            </li>
+            
+            
+            
+        </ul></div>
+</div>
+                        </div>
+                    					                        													<div class="col-12 col-md-6 col-lg-4 col-xl-1dot8 mb-6 mb-md-10 mb-xl-0">
+								<div class="nav-footer">
+                                    <h4 class="h6 font-weight-bold mb-2 mb-xl-4"></h4>
+                                    
+								</div>
+							</div>
+													<div class="col-12 col-md-6 col-lg-4 col-xl-1dot8 mb-6 mb-md-10 mb-xl-0">
+								<div class="nav-footer">
+                                    <h4 class="h6 font-weight-bold mb-2 mb-xl-4"></h4>
+                                    
+								</div>
+							</div>
+													<div class="col-12 col-md-6 col-lg-4 col-xl-1dot8 mb-6 mb-md-10 mb-xl-0">
+								<div class="nav-footer">
+                                    <h4 class="h6 font-weight-bold mb-2 mb-xl-4"></h4>
+                                    
+								</div>
+							</div>
+											                    <div class="col-12 col-md-6 col-lg col-xl-3dot1">
+                        <div class="mb-4 mb-xl-2">
+                            <h4 class="h6 font-weight-bold mb-2 mb-xl-4">القائمة البريدية</h4>
+                            <p class="m-0 text-gray-1">اشترك في القائمة البريدية للحصول على العروض</p>
+                        </div>
+                        <form action="https://findeqi.com/ar/newsletter/subscribe" class="subcribe-form bravo-subscribe-form bravo-form">
+                            <input type="hidden" name="_token" value="zUGtB8dLEU5UOIIViWwxZIo3hK6uUSfyakpUQ53U">                            <div class="input-group">
+                                <input type="text" name="email" class="form-control height-54 font-size-14 border-radius-3 border-width-2 border-color-8 email-input" placeholder="بريدك الالكتروني">
+                                <div class="input-group-append ml-3">
+                                    <button type="submit" class="btn-submit btn btn-sea-green border-radius-3 height-54 min-width-112 font-size-14">الإشتراك
+                                        <i class="fa fa-spinner fa-pulse fa-fw"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="form-mess"></div>
+                        </form>
+                    </div>
+				</div>
+			</div>
+		</div>
+        <div class="border-top border-bottom border-color-8 space-1">
+            <div class="container">
+                <div class="sub-footer d-flex align-items-center justify-content-between">
+                    <a class="d-inline-flex align-items-center" href="../index.html" aria-label="MyTravel">
+                        
+                        <span class="brand brand-dark">فندقي</span>
+                    </a>
+                    <div class="footer-select bravo_topbar d-flex align-items-center">
+                        <div class="mr-3">
+                            <div class="position-relative px-3 u-header__login-form dropdown-connector-xl u-header__topbar-divider currency-select">
+        <div class="d-flex align-items-center text-white py-3 dropdown">
+            <span class="d-inline-block font-size-14 mr-1 dropdown-nav-link " data-toggle="dropdown">
+                                                                                                                            <span class="flag-icon flag-icon-iq"></span>
+                                                    Arabic
+                                                </span>
+            <ul class="dropdown-menu dropdown-menu-user text-left width-auto">
+                                                            <li>
+                            <a href="../hotel783b.html?orderby=price_low_high&amp;set_lang=en" class="d-flex">
+                                                                    <span class="flag-icon flag-icon-gb mr-2"></span>
+                                                                English
+                            </a>
+                        </li>
+                                                                                    </ul>
+        </div>
+    </div>
+                        </div>
+                        <div class="position-relative px-3 u-header__login-form dropdown-connector-xl u-header__topbar-divider currency-select">
+        <div class="d-flex align-items-center text-white py-3 dropdown">
+            <span class="d-inline-block font-size-14 mr-1 dropdown-nav-link " data-toggle="dropdown">
+                                                            USD
+                                                                                    </span>
+            <ul class="dropdown-menu text-left width-auto min-width-100">
+                                                                                                <li>
+                            <a href="hotel783b.html?orderby=price_low_high&amp;set_currency=iqd">
+                                IQD
+                            </a>
+                        </li>
+                                                </ul>
+        </div>
+    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="copy-right">
+			<div class="container context">
+				<div class="row">
+					<div class="col-md-12">
+						<p>&copy; جميع الحقوق محفوظة فندقي. 2021</p>
+						<div class="f-visa">
+							<p>فندقي</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<a class="travel-go-to u-go-to-modern" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
+    <span class="flaticon-arrow u-go-to-modern__inner"></span>
+</a>
+<div class="modal fade login" id="login" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content relative">
+            <div class="modal-header">
+                <h4 class="modal-title">تسجيل الدخول</h4>
+                <span class="c-pointer" data-dismiss="modal" aria-label="Close">
+                    <i class="input-icon field-icon fa">
+                        <img src="../images/ico_close.svg" alt="close">
+                    </i>
+                </span>
+            </div>
+            <div class="modal-body relative">
+                <form class="bravo-form-login" method="POST" action="https://findeqi.com/ar/login">
+    <input type="hidden" name="_token" value="zUGtB8dLEU5UOIIViWwxZIo3hK6uUSfyakpUQ53U">    <div class="form-group">
+        <input type="text" class="form-control" name="email" autocomplete="off" placeholder="عنوان البريد الالكتروني">
+        <i class="input-icon icofont-mail"></i>
+        <span class="invalid-feedback error error-email"></span>
+    </div>
+    <div class="form-group">
+        <input type="password" class="form-control" name="password" autocomplete="off"  placeholder="الرمز السري">
+        <i class="input-icon icofont-ui-password"></i>
+        <span class="invalid-feedback error error-password"></span>
+    </div>
+    <div class="form-group">
+        <div class="d-flex justify-content-between">
+            <label for="remember-me" class="mb0">
+                <input type="checkbox" name="remember" id="remember-me" value="1"> تذكرني <span class="checkmark fcheckbox"></span>
+            </label>
+            <a href="password/reset.html">هل نسيت كلمة السر؟</a>
+        </div>
+    </div>
+        <div class="error message-error invalid-feedback"></div>
+    <div class="form-group">
+        <button class="btn btn-primary form-submit" type="submit">
+            تسجيل الدخول
+            <span class="spinner-grow spinner-grow-sm icon-loading" role="status" aria-hidden="true"></span>
+        </button>
+    </div>
+        <div class="c-grey font-medium f14 text-center"> لا تملك حساب؟ <a href="#" data-target="#register" data-toggle="modal">سجل الان</a>
+    </div>
+</form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade login" id="register" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content relative">
+            <div class="modal-header">
+                <h4 class="modal-title">سجل الان</h4>
+                <span class="c-pointer" data-dismiss="modal" aria-label="Close">
+                    <i class="input-icon field-icon fa">
+                        <img src="../images/ico_close.svg" alt="close">
+                    </i>
+                </span>
+            </div>
+            <div class="modal-body">
+                <form class="form bravo-form-register" method="post">
+    <input type="hidden" name="_token" value="zUGtB8dLEU5UOIIViWwxZIo3hK6uUSfyakpUQ53U">    <div class="row">
+        <div class="col-lg-6 col-md-12">
+            <div class="form-group">
+                <input type="text" class="form-control" name="first_name" autocomplete="off" placeholder="الاسم الاول">
+                <i class="input-icon field-icon icofont-waiter-alt"></i>
+                <span class="invalid-feedback error error-first_name"></span>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <div class="form-group">
+                <input type="text" class="form-control" name="last_name" autocomplete="off" placeholder="الاسم الاخير">
+                <i class="input-icon field-icon icofont-waiter-alt"></i>
+                <span class="invalid-feedback error error-last_name"></span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" name="phone" autocomplete="off" placeholder="رقم الهاتف">
+        <i class="input-icon field-icon icofont-ui-touch-phone"></i>
+        <span class="invalid-feedback error error-phone"></span>
+    </div>
+    <div class="form-group">
+        <input type="email" class="form-control" name="email" autocomplete="off" placeholder="عنوان البريد الالكتروني">
+        <i class="input-icon field-icon icofont-mail"></i>
+        <span class="invalid-feedback error error-email"></span>
+    </div>
+    <div class="form-group">
+        <input type="password" class="form-control" name="password" autocomplete="off" placeholder="الرمز السري">
+        <i class="input-icon field-icon icofont-ui-password"></i>
+        <span class="invalid-feedback error error-password"></span>
+    </div>
+    <div class="form-group">
+        <label for="term">
+            <input id="term" type="checkbox" name="term" class="mr5">
+            قرأت وأقبل بــ <a href='page/privacy-policy.html' target='_blank'>الشروط وسياسة الخصوصية </a>
+            <span class="checkmark fcheckbox"></span>
+        </label>
+        <div><span class="invalid-feedback error error-term"></span></div>
+    </div>
+        <div class="error message-error invalid-feedback"></div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary form-submit">
+            سجل الان
+            <span class="spinner-grow spinner-grow-sm icon-loading" role="status" aria-hidden="true"></span>
+        </button>
+    </div>
+        <div class="c-grey f14 text-center">
+       لديك حساب بالفعل؟
+        <a href="#" data-target="#login" data-toggle="modal">تسجيل الدخول</a>
+    </div>
+</form>
+            </div>
+        </div>
+    </div>
+</div><link rel="stylesheet" href="../libs/flags/css/flag-icon.min.css">
+
+
+
+
+<script src="../libs/lazy-load/intersection-observer.js"></script>
+<script async src="../libs/lazy-load/lazyload.min.js"></script>
+<script>
+    // Set the options to make LazyLoad self-initialize
+    window.lazyLoadOptions = {
+        elements_selector: ".lazy",
+        // ... more custom settings?
+    };
+
+    // Listen to the initialization event and get the instance of LazyLoad
+    window.addEventListener('LazyLoad::Initialized', function (event) {
+        window.lazyLoadInstance = event.detail.instance;
+    }, false);
+</script>
+<script src="../libs/jquery-3.6.0.min.js"></script>
+<script src="../libs/jquery-migrate/jquery-migrate.min.js"></script>
+<script src="../libs/header.js"></script>
+<script>
+    $(document).on('ready', function () {
+        $.MyTravelHeader.init($('#header'));
+    });
+</script>
+<script src="../libs/lodash.min.js"></script>
+<script src="../libs/vue/vue.min.js"></script>
+<script src="../libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../libs/bootbox/bootbox.min.js"></script>
+
+<script src="../libs/fancybox/jquery.fancybox.min.js"></script>
+<script src="../libs/slick/slick.js"></script>
+
+
+<script src="../libs/carousel-2/owl.carousel.min.js"></script>
+<script type="text/javascript" src="../libs/daterange/moment.min.js"></script>
+<script type="text/javascript" src="../libs/daterange/daterangepicker.min.js"></script>
+<script src="../libs/select2/js/select2.min.js"></script>
+<script src="../js/functionsfb9d.js?_ver=1.2.0"></script>
+<script src="../libs/custombox/custombox.min.js"></script>
+<script src="../libs/custombox/custombox.legacy.min.js"></script>
+<script src="../libs/custombox/window.modal.js"></script>
+
+<script src="../libs/pusher.min.js"></script>
+<script src="../js/homefb9d.js?_ver=1.2.0"></script>
+
+
+
+
+    <script type="text/javascript" src="../libs/ion_rangeslider/js/ion.rangeSlider.min.js"></script>
+    <script type="text/javascript" src="../module/hotel/js/hotelfb9d.js?_ver=1.2.0"></script>
+
+    </div>
+    
+    
+        </body>
+
+<!-- Mirrored from findeqi.com/ar/hotel?orderby=price_low_high by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Jan 2022 12:06:34 GMT -->
+</html>
